@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="styles/bootstrap-grid.css">
     <link rel="stylesheet" href="styles/bootstrap-grid.min.css">
     <title>Register</title>
+    <?php ?>
 </head>
 <body>
+ 
   <style>
     .main-bg{
         background-color: #cce6f4 !important;
@@ -50,29 +52,29 @@
                             <div class="shad-box">
                                 <div class="text-center pb-5">
                                     <!-- <img src="logo.png" alt="logo-image" class="mw-100"> -->
-                                    <form action="" method="post" class="pt-3">
+                                    <form action="post-data.php" method="post" class="pt-3">
                                         <div class="d-block">
-                                            <label for="" name="">Username&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                                            <input type="text" name="" id="" required>
+                                            <label for="username" name="">Username&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                                            <input type="text" name="username" id="" required>
                                         </div>
                                         <div class="d-block">
-                                            <label for="" name="">Password &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                                            <input type="password" name="" id="" required>
+                                            <label for="passwordlog" name="">Password &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                                            <input type="password" name="passwordlog" id="" required>
                                         </div>
                                         <div class="d-block">
-                                            <label for="" name="">Confirm Password</label>
-                                            <input type="password" name="" id="" required>
+                                            <label for="confirm_password" name="">Confirm Password</label>
+                                            <input type="password" name="confirm_password" id="" required>
                                         </div>
                                         <div class="d-block">
-                                            <label for="" name="">E-mail address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                                            <input type="email" name="" id="" required>
+                                            <label for="email_address" name="">E-mail address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                                            <input type="email" name="email_address" id="" required>
                                         </div>
                                         <div class="d-block">
-                                            <label for="" name="">Phone number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                                            <input type="number" name="" id="" required>
+                                            <label for="phone_number" name="">Phone number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                                            <input type="number" name="phone_number" id="" required>
                                         </div>
                                         <div class="d-block">
-                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button value="submit" name="">Register</button>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button value="submit" name="submit">Register</button>
                                         </div>
                                       
                                     </form>
