@@ -1,6 +1,7 @@
 <?php 
 include("conn.php");
 
+
 $username = $_POST['username'];
 $passwordlog = $_POST['passwordlog'];
 
@@ -26,4 +27,5 @@ else{
 
 header("http://localhost/admin-panel/logged.html");
 exit();
+
 ?>
