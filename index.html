@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/bootstrap-grid.css">
+    <link rel="stylesheet" href="styles/bootstrap-grid.min.css">
+    <title>Sign in</title>
+</head>
+<body>
+  <style>
+    .main-bg{
+        background-color: #cce6f4 !important;
+        height: 100vh;
+    }
+    .middle-content{
+        margin-top: 15% !important;
+    }
+    .shad-box{
+        background-color: #fff !important;
+        border-radius: 15px;
+        box-shadow: grey;
+        padding: 0px 30px;
+    }
+    button{
+        width: 25%;
+        border: none;
+        background-color: #007bff !important;
+        border-radius: 18px;
+        padding: 7px 0px;
+        color: #fff;
+    }
+    .line-across{
+        border-top:1px solid #007bff !important;
+        width: 100% !important;
+    }
+  </style>
+  <div class="main-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="middle-content">
+                    <div class="row no-guuters g-0">
+                        <div class="col-lg-3"></div>
+                        <div class="col-lg-6">
+                            <div class="shad-box">
+                                <div class="text-center pb-5">
+                                    <img src="logo.png" alt="logo-image" class="mw-100">
+                                    <form action="authentication.php" method="post">
+                                        <div class="d-block">
+                                            <label for="username" name="">Username</label>
+                                            <input type="text" name="username" id="">
+                                        </div>
+                                        <div class="d-block">
+                                            <label for="passwordlog" name="">Password</label>
+                                            <input type="password" name="passwordlog" id="">
+                                        </div>
+                                        <div class="d-block">
+                                            <button value="submit" name="">Sign in</button>
+                                        </div>
+                                      
+                                    </form>
+                                    <div class="line-across mt-2 mb-2"></div>
+                                    <p><a href="reset-password.html">Forgot password?</a></p>
+
+                                    <p>Don't have an account? <a href="register.html" target="-blank">Register here</a> </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-3"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+      </div>
+  </div>
+  
+</body>
+</html>
